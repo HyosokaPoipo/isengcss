@@ -1,0 +1,28 @@
+body {
+    background: #0DD;
+    padding: 35px;
+}
+
+.myRadioButton {
+    background: green;
+    line-height: 45px;
+    box-shadow: 2px 1px 5px 1px rgba(90, 50, 0, 0.65);
+}
+
+input[type='radio'] {
+    opacity: 0;
+}
+
+.myRadioButton label {
+   background: url(../img/git.ico) no-repeat;
+   background-size: 20px 20px;
+   padding-left: 40px;
+   cursor: pointer;
+}
+
+input:checked + label {
+   background: url(../img/git-for-windows.ico) no-repeat;
+   background-size: 20px 20px;
+   color: #00FF90;
+   font-weight: bold;
+}
